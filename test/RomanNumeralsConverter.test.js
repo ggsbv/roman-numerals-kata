@@ -1,3 +1,17 @@
+/*
+I = 1
+II = 2
+III = 3
+IV = 4
+V = 5
+VI = 6
+VII = 7
+VIII = 8
+IX = 9
+X = 10
+XI = 11
+*/
+
 let assert = require("assert");
 const RomanNumerals = require("../RomanNumerals");
 
@@ -19,5 +33,11 @@ describe("Roman Numerals Converter", () => {
         let romanNumerals = new RomanNumerals();
 
         assert.equal(romanNumerals.convert(3), "III");
+    })
+
+    it("should convert the number 5 to the Roman Numeral 'V'", () => {
+        let romanNumerals = new RomanNumerals();
+
+        assert.equal(romanNumerals.convert(5), "V");
     })
 })
