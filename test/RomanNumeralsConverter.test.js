@@ -12,7 +12,7 @@ describe("Roman Numerals Converter", () => {
     it("should convert the roman numeral 'II' to the number 2", () => {
         let romanNumerals = new RomanNumerals();
 
-        assert.equal(romanNumerals.convert(1), "I");
+        assert.equal(romanNumerals.convert(2), "II");
     })
 
 })
